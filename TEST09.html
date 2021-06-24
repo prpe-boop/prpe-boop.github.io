@@ -32,18 +32,35 @@ li{
 		height: 400px;
 		background-image: linear-gradient(black,red)
 	}
+#input.button-add {
+    background-image: url(/images/unsek.jpg); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 16px;           /* make this the size of your image */
+    padding-left: 16px;     /* make text start to the right of the image */
+    vertical-align: middle; 
+}
+
 </style>
 </head>
 <body id="backgrad">
+<input type="button" value="공룡" class="button-add" />
 <div id="image">
 </div>
 <div id="desc">
-<h3>공룡 종류</h3>
+<h3>공룡 종류</h3>ㄴ
 <ul id="menu">
   </li>
 	<li><a href="TEST05.HTML" target="bb">판 공룡
 </a></li>
 	<li><a href="test0.html" target="bb">뿔 공룡
+</a></li>
+<li><a href="TEST0.html" target="bb">용각류
+</a></li>
+	<li><a href="TEST0.HTML" target="bb">수각류
 </a></li>
 </div>
 </body>
